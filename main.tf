@@ -1,6 +1,15 @@
 terraform {
   backend "remote" {
-    organization = "hashicorp-learn"
+    organization = " terraform {
+  backend "remote" {
+    organization = "isynapse"
+
+    workspaces {
+      name = "learn-terraform-pipelines-k8s"
+    }
+  }
+}
+"
 
     workspaces {
       name = "learn-terraform-pipelines-k8s"
